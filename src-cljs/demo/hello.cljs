@@ -3,7 +3,7 @@
             [reagent.core :as reagent]))
 
 (defn foo []
-  "Moro")
+  "Howdy")
 
 (defn basic-element []
   (reagent/create-element
@@ -16,6 +16,6 @@
   (reagent/create-element
    (reagent/reactify-component (fn []
                                  [:div
-                                  [:h2 "Moikkis"
+                                  [:h2 "Kikka"
                                    [sentiment-very-satisfied]]]))
    #js{}))

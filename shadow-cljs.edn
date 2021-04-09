@@ -8,4 +8,6 @@
                  :target :esm
                  :modules {:demo {:exports {foo demo.hello/foo
                                             Component1 demo.hello/basic-element
-                                            Component2 demo.hello/test-element}}}}}}
+                                            Component2 demo.hello/test-element
+                                            Component3 demo.hello/functional-element
+                                            }}}}}}

@@ -23,3 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 .shadow-cljs
 src/cljs-runtime
+src/demo.js
