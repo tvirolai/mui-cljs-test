@@ -1,8 +1,5 @@
 import './App.css';
-import { Component1, Component2, Component3 } from './demo.js'
-import * as ReactIs from "react-is";
-
-console.log(ReactIs.isValidElementType(Component3))
+import { Component1, Component2 } from './demo.js'
 
 function App() {
   return (
